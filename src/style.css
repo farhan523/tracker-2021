@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f7f7f7;
+}
+
+.main {
+  width: 350px;
+  height: 100vh;
+  /* border: 1px solid orange; */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.IE {
+  width: 100%;
+  height: 100px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.IE p {
+  font-weight: bold;
+}
+
+.IE .left {
+}
+
+.IE .right {
+}
+
+#income {
+  color: #8cce71;
+}
+#expense {
+  color: red;
+}
+
+.balance h3 {
+  font-weight: bold;
+}
+
+.history {
+  height: auto;
+}
+
+.history h3 {
+  font-weight: bold;
+}
+.history ul li {
+  width: 100%;
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px 0 5px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.history ul li button {
+  height: 100%;
+  padding: 8px;
+  margin-left: 2px;
+  background-color: red;
+  color: white;
+  border: none;
+  visibility: hidden;
+  cursor: pointer;
+}
+.history ul li:hover button {
+  visibility: visible;
+}
+
+.green {
+  border-right: 4px solid green;
+}
+
+.red {
+  border-right: 4px solid red;
+}
+
+.form h3 {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form form {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form form input {
+  padding: 10px 0 10px 10px;
+  margin-bottom: 10px;
+}
+
+.form form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form form input[type='submit'] {
+  background-color: #9c88ff;
+  color: white;
+  border: none;
+}
